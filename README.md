@@ -8,14 +8,15 @@ A *read-only* [demo site](https://pbstracker-437ab.web.app/) using Express deplo
 
 The current version only supports TORQUE system.
 
-
 ## Example
 
 ```bash
-psub analyze.sub
+$ psub analyze.sub
 ```
 
 [Screenshot 1](https://i.imgur.com/ma6sHHY.png)   [Screenshot 2](https://i.imgur.com/qOeZwNz.png)
+
+Test job files are placed under `test_subfiles` folder.
 
 ## Set up
 

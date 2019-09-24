@@ -1,0 +1,18 @@
+# job name
+#PBS -N pbstracker_test2
+#PBS -S /bin/bash
+
+# Resources
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=0:01:00
+
+# Submit to this queue
+#PBS -q debug
+
+echo "The job has started. Current time: $(date)"
+
+sleep 180 # exceeds walltime to invoke a nonzero exit code (-11)
+
+>&2 echo "This job has stderr output."
+
+echo "The job has finished. Current time: $(date)"
