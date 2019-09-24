@@ -28,7 +28,7 @@ Then, prepare a `pbstracker_config.json` and place it under your home directory:
 }
 ```
 
-`auth` can be `basic` or `render`. The parameters are:
+`auth` can be `basic` or `bearer`. The parameters are:
 ```json
 "basic": {
     "user": "user",
