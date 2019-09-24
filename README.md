@@ -19,7 +19,13 @@ psub analyze.sub
 
 ## Set up
 
-You need to have basic python and Node.js knowledge to setup client and server. Instructions are in the `README.md` files under the folders.
+You need to have basic python and Node.js knowledge to setup client and server, and may need to implement your own authentication protocols.
+
+Instructions are in the `README.md` files under the folders.
+
+[Python client setup](https://github.com/rwalle/pbstracker/blob/master/client/README.md)
+[Express backend setup](https://github.com/rwalle/pbstracker/blob/master/server/backend/nodejs/README.md)
+[Django backend setup](https://github.com/rwalle/pbstracker/blob/master/server/backend/django/README.md)
 
 
 ## How it works
