@@ -2,7 +2,9 @@
 
 This is a tool that helps you track the PBS jobs submitted to an HPC cluster. After submitting jobs with `psub` command, the start/exit/finish status will be automatically reported to a website. Most importantly, this tool reports the stdout and stderr output of a job and marks those that have non empty stderr files, freeing users from manually checking the `.e*` files after jobs finish.
 
-The toolkit provides programs for a Python3 client and both [Django](https://www.djangoproject.com/) and [Express](https://expressjs.com/) server. A read-only [demo site](https://pbstracker-437ab.web.app/) using Express deployed on Google Firebase is provided.
+The toolkit provides a Python 3 client for submitting jobs on the HPC clusters, and a web server for viewing and managing jobs. The frontend of the web server uses [React](https://reactjs.org/). Two backends are provided, one written with [Django](https://www.djangoproject.com/) and [Django REST Framework](https://www.django-rest-framework.org/) and uses SQL database, the other written with [Express](https://expressjs.com/) and [Mongoose](https://mongoosejs.com/) and uses [mongoDB](https://www.mongodb.com/) as database.
+
+A *read-only* [demo site](https://pbstracker-437ab.web.app/) using Express deployed on Google Firebase is provided.
 
 The current version only supports TORQUE system.
 
